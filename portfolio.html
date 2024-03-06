@@ -6,26 +6,33 @@
     <title>portfolio</title>
     <style type="text/css">
     body, .main_wrap{
-      padding: 0px;
+      display: flex;
+      flex-direction: column;
+      /*padding: 0px;
       margin: 0px;
-      heights: 100vh;
+      heights: 100vh;*/
     }
       .main_wrap, nav{
         background: white;
-        align-items: center;
-        justify-content: center;
       }
       nav{
-        background: orange;
+       /* padding: 14px 15px; */
+        display: flex;
+       /* flex-direction: column;*/
+        justify-content: center;
+        box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.1);
       } 
-      nav a{;
-        padding: 12px;
+      nav a{
+        padding: 14px 15px;
+        background: white;
+        text-decoration: none;
+        color: black;
         margin: 0px;
-        background : white;
-        
+        border-bottom: solid 1px rgba(0,0,0,0);
       }
+      nav a
       section{
-        border: 1px solid orange;
+        /*border: 1px solid orange;*/
         padding: 15px;
       }
     </style>
