@@ -8,9 +8,7 @@
     body, .main_wrap{
       display: flex;
       flex-direction: column;
-      /*padding: 0px;
-      margin: 0px;
-      heights: 100vh;*/
+      heights: 100vh;
     }
       .main_wrap, nav{
         background: white;
@@ -20,7 +18,9 @@
         display: flex;
        /* flex-direction: column;*/
         justify-content: center;
-        box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.1);
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+        width: 100%;
+        margin-top: -10px;
       } 
       nav a{
         padding: 14px 15px;
@@ -28,13 +28,21 @@
         text-decoration: none;
         color: black;
         margin: 0px;
-        background: white;
-        
+        border-bottom: solid 2px rgba(0,0,0,0);
+      }
+      nav a:hover{
+        border-bottom: solid 2px rgba(0,0,0,.5);
       }
       nav a
       section{
         /*border: 1px solid orange;*/
-        padding: 15px;
+        padding: 10px;
+      }
+      section{
+        margin: 5px;
+      }
+      #home{
+        margin-top: 20px;
       }
     </style>
 </head>
